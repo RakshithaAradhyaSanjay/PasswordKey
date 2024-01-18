@@ -1,0 +1,73 @@
+<assemblies timestamp="01/18/2024 07:58:20">
+  <assembly name="/projects/challenge/RoomService.Tests/bin/Debug/net6.0/RoomService.Tests.dll" run-date="2024-01-18" run-time="07:58:20" total="3" passed="0" failed="3" skipped="0" time="7.299" errors="0">
+    <errors />
+    <collection total="3" passed="0" failed="3" skipped="0" name="Test collection for RoomService.Tests.IntegrationTests" time="2.102">
+      <test name="RoomService.Tests.IntegrationTests.TestGetRoomsByFloors" type="RoomService.Tests.IntegrationTests" method="TestGetRoomsByFloors" time="1.9326898" result="Fail">
+        <failure>
+          <message>Expected response1.StatusCode to be 200, but found Forbidden.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at RoomService.Tests.IntegrationTests.TestGetRoomsByFloors() in /projects/challenge/RoomService.Tests/IntegrationTests.cs:line 112
+--- End of stack trace from previous location ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="RoomService.Tests.IntegrationTests.TestGetRooms_Ok_403" type="RoomService.Tests.IntegrationTests" method="TestGetRooms_Ok_403" time="0.0780291" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found Forbidden.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at RoomService.Tests.IntegrationTests.TestGetRooms_Ok_403() in /projects/challenge/RoomService.Tests/IntegrationTests.cs:line 75
+--- End of stack trace from previous location ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+      <test name="RoomService.Tests.IntegrationTests.TestGetRoom_Ok_Number_403" type="RoomService.Tests.IntegrationTests" method="TestGetRoom_Ok_Number_403" time="0.0909337" result="Fail">
+        <failure>
+          <message>Expected response0.StatusCode to be 200, but found Forbidden.
+
+With configuration:
+- Use declared types and members
+- Compare enums by value
+- Match member by name (or throw)
+- Without automatic conversion.
+- Be strict about the order of items in byte arrays
+</message>
+          <stack-trace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.CollectingAssertionStrategy.ThrowIfAny(IDictionary`2 context)
+   at FluentAssertions.Equivalency.EquivalencyValidator.AssertEquality(EquivalencyValidationContext context)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, Func`2 config, String because, Object[] becauseArgs)
+   at FluentAssertions.Primitives.ObjectAssertions.BeEquivalentTo[TExpectation](TExpectation expectation, String because, Object[] becauseArgs)
+   at RoomService.Tests.IntegrationTests.TestGetRoom_Ok_Number_403() in /projects/challenge/RoomService.Tests/IntegrationTests.cs:line 92
+--- End of stack trace from previous location ---</stack-trace>
+        </failure>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
